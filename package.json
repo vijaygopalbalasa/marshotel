@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@fuel-wallet/react": "^0.16.1",
+    "fuels": "^0.79.0",
+    "react-icons": "^5.0.1"
+  }
+}

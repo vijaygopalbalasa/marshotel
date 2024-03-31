@@ -1,0 +1,81 @@
+/* ListProperty.css */
+
+/* Form container */
+/* Center the form on the page */
+.form-container {
+    /* max-width: 500px; */
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex; /* Center horizontally */
+    flex-direction: column; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    height: 90vh;
+    /* position: absolute; */
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+  }
+
+  .form {
+    display: flex; /* Center horizontally */
+    flex-direction: column; /* Center vertically */
+    justify-content: center; /* Center vertically */
+  
+  }
+
+  .form button {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #C53AAE;
+    color: white;
+    font-weight: bold;
+    transition: filter 0.15s ease-in-out;
+  }
+  
+  /* Adjust the pincode input box */
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box; /* Ensure padding and border fit within width */
+  }
+  
+  /* File input styling */
+  .file-input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  /* Submit button styling */
+  .submit-button {
+    background-color: #C53AAE;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .submit-button:hover {
+    background-color: #C53AAE;
+  }
+  
+  
+  

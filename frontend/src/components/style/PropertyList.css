@@ -1,0 +1,64 @@
+/* PropertyList.css */
+
+  
+  /* Title */
+  .property-list-title {
+    font-size: 28px;
+    color: #000000;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Loading Message */
+  .loading-message {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Property Cards Container */
+  .property-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Property Card */
+  .property-card {
+    width: 300px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .property-card h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .property-card a {
+    display: block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #C53AAE;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .property-card a:hover {
+    color: #ab3096;
+  }
+  
+  /* No Property Listed Message */
+  .no-property-message {
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+  }
+  

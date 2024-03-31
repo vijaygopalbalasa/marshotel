@@ -1,0 +1,81 @@
+/* NavigationBar.css */
+
+/* Navigation bar container */
+.navbar {
+  background-color: #000000;
+  /* Maintain the same background color */
+  padding: 10px 20px;
+  /* Add some padding for better spacing */
+  display: flex;
+  /* Use flexbox for better alignment */
+  align-items: center;
+  /* Align items vertically */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  /* Add subtle shadow for depth */
+}
+
+/* Connect/Disconnect button styling */
+.connect-button,
+.disconnect-button {
+  font-weight: bold;
+  color: #fff;
+  /* White text color */
+  background-color: transparent;
+  /* Transparent background */
+  border: 2px solid #fff;
+  /* White border */
+  padding: 5px 15px;
+  /* Padding inside the button */
+  margin-left: auto;
+  /* Push buttons to the right */
+  cursor: pointer;
+  /* Change cursor to pointer */
+  transition: background-color 0.3s, color 0.3s;
+  /* Smooth transition for hover effect */
+}
+
+.connect-button:hover,
+.disconnect-button:hover {
+  background-color: #fff;
+  /* White background on hover */
+  color: #000000;
+  /* Original navbar color for text on hover */
+}
+
+/* Disconnect button specific styling */
+.disconnect-button {
+  background-color: #000000;
+  /* Black background */
+  border-color: #fff;
+  /* White border */
+}
+
+/* Logo styling */
+.logo {
+  font-weight: bold;
+  color: #fff;
+  /* White text color */
+  font-size: 1.2em;
+  /* Slightly larger font size */
+}
+
+/* Navigation links styling */
+.nav-link {
+  font-weight: bold;
+  margin-left: 20px;
+  /* Spacing between links */
+  color: #fff;
+  /* White text color */
+  text-decoration: none;
+  /* No underline */
+  transition: color 0.3s;
+  /* Smooth transition for color change */
+}
+
+/* Add hover effect to links */
+.nav-link:hover {
+  color: #e6e6e6;
+  /* Lighter shade for hover */
+  text-decoration: underline;
+  /* Underline on hover */
+}
